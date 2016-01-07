@@ -1,0 +1,36 @@
+.image {
+	float: left;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/2000px-Color_icon_blue.svg.png");
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media all and (min-width: 768px) and (max-width: 979px){
+	.image {
+		height: 200px;
+		width: 200px;
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/2000px-Color_icon_blue.svg.png");
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media all and (min-width: 481px) and (max-width: 767px){
+	.image {
+		height: 150px;
+		width: 150px;
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/2000px-Color_icon_blue.svg.png");
+	}
+}
+
+/* Landscape phones and down */
+@media all and (max-width: 480px){
+	.image {
+		height: 100px;
+		width: 100px;
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/2000px-Color_icon_blue.svg.png");
+	}
+}
