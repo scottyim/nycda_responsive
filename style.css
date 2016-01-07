@@ -1,3 +1,7 @@
+body {
+	background-color: #383838;
+}
+
 .image {
 	float: left;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/2000px-Color_icon_blue.svg.png");
@@ -10,6 +14,9 @@
 
 /* Portrait tablet to landscape and desktop */
 @media all and (min-width: 768px) and (max-width: 979px){
+	body {
+		background-color: #8C8C8C;
+	}
 	.image {
 		height: 200px;
 		width: 200px;
@@ -19,6 +26,9 @@
 
 /* Landscape phone to portrait tablet */
 @media all and (min-width: 481px) and (max-width: 767px){
+	body {
+		background-color: #B3B3B3;	
+	}
 	.image {
 		height: 150px;
 		width: 150px;
@@ -28,6 +38,9 @@
 
 /* Landscape phones and down */
 @media all and (max-width: 480px){
+	body {
+		background-color: #E0E0E0;		
+	}
 	.image {
 		height: 100px;
 		width: 100px;
